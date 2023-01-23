@@ -7,6 +7,10 @@ EMAIL: shreshk@uci.edu
 -->
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Skranji&family=Unbounded&display=swap" rel="stylesheet">
+
   <meta charset="utf-8">
   <meta name="author" content="Shreshta Kumar">
   <meta name="description" content="My Project Portfolio">
@@ -16,18 +20,41 @@ EMAIL: shreshk@uci.edu
   <title>Home</title>
 </head>
 
+<body>
 <!-- Source referenced to create navbar: https://www.w3schools.com/howto/howto_js_topnav.asp -->
 <div class="topnav">
-  <a style="text-decoration: underline; color: #C6C4C4" href="index.html">Home</a>
+  <a style="text-decoration: underline; color: #a9ddf6" href="index.html">Home</a>
   <a href="resume.html">Resume</a>
   <a href="projects.html">Projects</a>
   <a href="contact.html">Contact</a>
-  <a href="about.html">About Me</a>
 </div>
-<body>
-  <h1 style="margin-top: 25%;">
-    Shreshta's Portfolio
-  </h1>
-  
+
+<div style="text-align: center;">
+  <div style="font-family: 'Unbounded', cursive; margin-top: 10%; margin-bottom: 13%; color: #a9ddf6">
+    <h1 style="font-size: 8vw;"> Shreshta's Portfolio </h1>
+    <h2 style=" font-size: 2vw; color: white">Welcome!</h2>
+  </div>
+</div>
+ 
+    <!-- Source referred to for image-text side-by-side: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp -->
+    <div class="about-text">
+      <div class="about-img">
+        <!-- Source referred to for semantic HTML: https://www.w3schools.com/html/html5_semantic_elements.asp -->
+        <figure> <img src="images/shreshta.JPG" class="responsive" alt="Image of Shreshta Kumar"> </figure>
+      </div>
+      <div class="about-me" style="font-size: 2vw;">
+        <h2> My name is Shreshta Kumar. </h2>
+        <p style="font-size: 1.75vw">
+            I am a 2nd year Computer Science student at the University of California, Irvine. In my spare time, 
+            I enjoy listening to music and spending time with friends!  I am interested in learning more about 
+            web development and UI/UX design.
+            <p style="font-size: 1.5vw">
+              <u>Skills</u>&emsp;&emsp;&emsp;Python&emsp;○&emsp;C++&emsp;○&emsp;HTML/CSS&emsp;○&emsp;Figma&emsp;○&emsp;Prototyping 
+            </p>
+        </p>
+        <br>
+      </div>
+    </div>
+
 </body>
 </html>

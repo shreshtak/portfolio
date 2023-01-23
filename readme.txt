@@ -11,38 +11,47 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */15
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 2/2 Advanced feature
+- 2.75/3 Responsive layout
 - */1 Passes validation checks
 - */2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+ The portfolio includes images, headings/paragraph text, links to external pages, multiple pages with
+ navigation between the pages, a custom Google font, and semantic tags.
 
 
 (b) CSS features
-
+The portfolio includes the following CSS features: modified padding/margins, modified text color, 
+and custom fonts.
 
 
 (c) Advanced features
-
+The porfolio inclues an embedded video, and a contact form.
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+It took me approximately 13 hours to finish this assignment.
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
+- https://www.w3schools.com/howto/howto_js_topnav.asp
+- https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://stackoverflow.com/questions/364946/how-to-make-pdf-file-downloadable-in-html-link
+- https://www.tutorialspoint.com/How-to-embed-a-video-using-HTML-code#:~:text=To%20embed%20a%20video%20in,is%20the%20video%20embed%20link
+- https://www.w3schools.com/howto/howto_css_contact_form.asp
+- https://www.w3schools.com/howto/howto_css_responsive_text.asp
 
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+None
 
 
 6. Is there anything special we need to know in order to run your code?

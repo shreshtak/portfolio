@@ -7,6 +7,9 @@ EMAIL: shreshk@uci.edu
 -->
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Skranji&family=Unbounded&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="author" content="Shreshta Kumar">
   <meta name="description" content="My Project Portfolio">
@@ -16,34 +19,74 @@ EMAIL: shreshk@uci.edu
   <title>Projects</title>
 </head>
 
+<body>
 <!-- Source referenced to create navbar: https://www.w3schools.com/howto/howto_js_topnav.asp -->
 <div class="topnav">
   <a href="index.html">Home</a>
   <a href="resume.html">Resume</a>
-  <a style="text-decoration: underline; color: #C6C4C4" href="projects.html">Projects</a>
+  <a style="text-decoration: underline; color: #D77F04" href="projects.html">Projects</a>
   <a href="contact.html">Contact</a>
-  <a href="about.html">About Me</a>
 </div>
-<body>
-    <h1 style="color: white; margin-top: 10%">Projects</h1>
+<div style="text-align: center">
+    <h1 style="font-family: 'Unbounded', cursive; color: #D77F04; margin-top: 10%">Projects</h1>
   
-  <center>
-  <!-- Source referenced for image-text side-by-side view: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html-->
-  <div class="container">
-      <div class="image">
-        <img src="/images/treadify.png" alt="Treadify Workout App" >
-      </div>
-      <dix class="text">
-        <p>
-            Treadify is a website that generates a playlist based on the artist the user inputs. 
-            We used Javascript to retrieve the data from the backend, HTML/CSS to display the data, and Python/Flask to build the backend. 
-            The playlist generator uses the Spotify API to get songs by an artist and recommends a treadmill speed depending on the song's BPM. 
-            The playlist is sorted by the intensity of the BPM.
-        </p>
-        <h3> Github Repository: [link]</h3>
-      </div>
+  <!-- Source referenced for video embedding: https://www.tutorialspoint.com/How-to-embed-a-video-using-HTML-code#:~:text=To%20embed%20a%20video%20in,is%20the%20video%20embed%20link. -->
+
+  <h2 style="margin-top: 7%; margin-bottom:3%; color:#CF68EE">Treadify</h2>
+  <div>
+    <iframe 
+      width="560" 
+      height="350"
+      class="treadify-video"
+      src="https://www.youtube.com/embed/vp-a7NjX-Us" 
+      title="VenusHacks 2022 Treadify" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+
+
   </div>
 
-  </center>
+  <div class="text" style="font-size: 1.5vw">
+    <p>
+        Treadify is a website that generates a playlist based on the artist the user inputs. 
+        We used Javascript to retrieve the data from the backend, HTML/CSS to display the data, and Python/Flask to build the backend. 
+        The playlist generator uses the Spotify API to get songs by an artist and recommends a treadmill speed depending on the song's BPM. 
+        The playlist is sorted by the intensity of the BPM.
+    </p>
+    <a target="_blank" style="color: #CF68EE" href="https://github.com/ivynguyen2303/venushacks2022-treadify">Github Repository</a>
+  </div>
+
+  <h2 style="margin-top: 100px; color:#8886F4">Noma - Travel Planning App</h2>
+
+  <div>
+    <iframe 
+    width="560" 
+    height="350"
+    src="https://www.youtube.com/embed/hTcqlfjvLRs" 
+    title=""
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+
+  </div>
+  
+
+    <div class="text" style="font-size: 1.5vw">
+      <p>
+        NOMA is a travel planning app designed to assist users who are unsure of their next travel destination. 
+        Inspired by Tinder, NOMA utilizes a swiping mechanism for users to swipe right (like) and left (dislike) 
+        on recommended locations. Users also have the option to bookmark specific attractions within their trips, 
+        to create simple itineraries for their trip. 
+      </p>
+      <div style="margin-bottom: 200px">
+        <a target="_blank" style="color: #9694F5; margin-right: 2%" href="https://www.figma.com/proto/lrNDiCZ60QsyuJaTRvL8aR/Travel-App---Design%40UCI?node-id=232%3A1733&scaling=scale-down&page-id=0%3A1&starting-point-node-id=185%3A374">NOMA Prototype</a>
+        <a target="_blank" style="color: #9694F5; margin-left: 2%" href="https://docs.google.com/presentation/d/19o9IxrlH5ih_8EPi6EyfpXYHji1lOiGPtRL3Vx2PFqM/edit?usp=sharing">NOMA Presentation</a>
+      </div>
+    </div>
+
+
+</div>
+
 </body>
 </html>
