@@ -56,3 +56,4 @@ None
 
 6. Is there anything special we need to know in order to run your code?
 
+CSS validator was not loading, so I was not able to check the validity of my styles.css file.
